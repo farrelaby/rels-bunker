@@ -1,6 +1,7 @@
 import React from "react";
 import { Carousel } from "@mantine/carousel";
 import Link from "next/link";
+import Image from "next/image";
 
 export function Projects({}) {
   return (
@@ -14,7 +15,7 @@ export function Projects({}) {
             className=" text-[#0070f3] bg-white shadow-xl"
           >
             <Carousel.Slide className="bg-[hsl(225,15%,18%)]">
-              <img src="/dashboard.jpg" className="w-full"></img>
+              <Image src="/dashboard.jpg" width={625} height={335}></Image>
               <div className="flex flex-col mx-12 mt-4">
                 <h3 className="text-3xl">
                   Photovoltaic & Wind Trubine <br /> Dashboard
