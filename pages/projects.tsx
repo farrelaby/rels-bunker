@@ -15,7 +15,12 @@ export function Projects({}) {
             className=" text-[#0070f3] bg-white shadow-xl"
           >
             <Carousel.Slide className="bg-[hsl(225,15%,18%)]">
-              <Image src="/dashboard.jpg" width={625} height={335}></Image>
+              <Image
+                alt="Dashboard"
+                src="/dashboard.jpg"
+                width={625}
+                height={335}
+              ></Image>
               <div className="flex flex-col mx-12 mt-4">
                 <h3 className="text-3xl">
                   Photovoltaic & Wind Trubine <br /> Dashboard
